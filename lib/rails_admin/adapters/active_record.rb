@@ -28,7 +28,7 @@ module RailsAdmin
       end
 
       def scoped
-        model.all
+        model.scoped
       end
 
       def first(options = {}, scope = nil)
